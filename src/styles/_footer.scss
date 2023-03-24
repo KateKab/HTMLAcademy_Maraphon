@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    background-color: #E5E5E5;
+    font-weight: 400;
+    font-size: 18px;
+
+    &__owner{
+        margin-left: 337px;
+    }
+}

@@ -1,0 +1,20 @@
+mixin slide-button
+    button.reviews-content__button&attributes(attributes)
+        img(src="../../images/reviews-arrow.svg" alt="")
+
+
+.reviews 
+    .reviews__header отзывы
+    .reviews-content
+        +slide-button(id='back')
+        .review 
+            p.review__text «Восторг! Спасибо, за комфортную жизнь. Очень рада, 
+            |что выбрала вашу студию для украшения своего дома.<br/><br/> 
+            |Работа шла быстро, было очень приятно общаться и 
+            |взаимодествовать с сотрудниками. Не ожидала, что это будет так легко!<br/><br/> 
+            |Буду советовать и своим друзьям к вам обращаться!»
+            p.review__author анна беловская
+        img#img1(src="../../images/reviews-1.jpg" alt="")
+        img#img2(src="../../images/reviews-2.jpg" alt="")
+        +slide-button(id='forward')
+
